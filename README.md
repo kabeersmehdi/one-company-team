@@ -3,65 +3,79 @@
 ### 📂 Directory Structure
 ```text
 one-company-skill/
-├── 00_ONBOARDING.md           # Interview skill (runs first)
-├── company-profile.json       # Master config: officers, departments, sub-skills
-├── /c-suite/                  # All officer skills live here
-│   ├── CEO.md                 # Master router + vision-setter
-│   ├── COO.md                 # Cross-department ops + escalation handler
-│   ├── CFO.md                 # Financial decisions + budget gates
-│   ├── CTO.md                 # Tech strategy + tool evaluation
-│   ├── CIO.md                 # Internal IT + security + infrastructure
-│   ├── CMO.md                 # Marketing, brand, sales strategy
-│   ├── CHRO.md                # Hiring, people ops, employee relations
-│   ├── CCO.md                 # Compliance, legal risk, contracts
-│   ├── CDO.md                 # Data governance, analytics, reporting
-│   ├── CSO.md                 # Sustainability, ESG, social responsibility
-│   ├── President.md           # COO-adjacent or board-facing strategist
-│   └── General-Counsel.md     # Legal opinions, contract review
-├── /marketing/                # Owned by CMO
-│   ├── brand-voice.md
-│   ├── campaign-brief.md
-│   ├── content-repurposer.md
-│   └── seo-analyst.md
-├── /creative/                 # Owned by CMO
-│   ├── art-director.md
-│   ├── copywriter.md
-│   ├── creative-brief.md
-│   └── brand-reviewer.md
-├── /finance/                  # Owned by CFO
-│   ├── budget-tracker.md
-│   ├── invoice-reviewer.md
-│   └── cash-flow-summarizer.md
-├── /technology/               # Owned by CTO
-│   ├── tool-evaluator.md
-│   ├── integration-planner.md
-│   └── tech-stack-advisor.md
-├── /it-security/              # Owned by CIO
-│   ├── access-policy.md
-│   ├── vendor-security-check.md
-│   └── incident-responder.md
-├── /people-ops/               # Owned by CHRO
-│   ├── job-description-writer.md
-│   ├── onboarding-guide.md
-│   └── performance-review.md
-├── /legal-compliance/         # Owned by CCO + General Counsel
-│   ├── contract-reviewer.md
-│   ├── nda-handler.md
-│   └── risk-flagging.md
-├── /data-analytics/           # Owned by CDO
-│   ├── report-summarizer.md
-│   ├── kpi-tracker.md
-│   └── data-quality-checker.md
-├── /sustainability/           # Owned by CSO
-│   ├── esg-reporter.md
-│   └── vendor-ethics-checker.md
-├── /operations/               # Owned by COO
-│   ├── project-tracker.md
-│   ├── capacity-planner.md
-│   ├── sop-writer.md
-│   └── meeting-summarizer.md
-└── /client-services/          # Owned by COO or President
-    ├── account-manager.md
-    ├── scope-checker.md
-    └── proposal-writer.md
+├── 00_ONBOARDING.md
+├── company-profile.json
+│
+├── /c-suite/
+│   ├── /CEO/
+│   │   ├── CEO.md                 # Identity, routing, decision framework
+│   │   └── CEO_SKILL.md           # Good/bad examples, edge cases
+│   ├── /COO/
+│   │   ├── COO.md
+│   │   └── COO_SKILL.md
+│   ├── /CFO/
+│   │   ├── CFO.md
+│   │   └── CFO_SKILL.md
+│   ├── /CTO/
+│   │   ├── CTO.md
+│   │   └── CTO_SKILL.md
+│   ├── /CIO/
+│   │   ├── CIO.md
+│   │   └── CIO_SKILL.md
+│   ├── /CMO/
+│   │   ├── CMO.md
+│   │   └── CMO_SKILL.md
+│   ├── /CHRO/
+│   │   ├── CHRO.md
+│   │   └── CHRO_SKILL.md
+│   ├── /CCO/
+│   │   ├── CCO.md
+│   │   └── CCO_SKILL.md
+│   ├── /CDO/
+│   │   ├── CDO.md
+│   │   └── CDO_SKILL.md
+│   ├── /CSO/
+│   │   ├── CSO.md
+│   │   └── CSO_SKILL.md
+│   ├── /President/
+│   │   ├── President.md
+│   │   └── President_SKILL.md
+│   └── /General-Counsel/
+│       ├── General-Counsel.md
+│       └── General-Counsel_SKILL.md
+│
+├── /marketing/
+│   ├── /brand-voice/
+│   │   ├── brand-voice.md
+│   │   └── brand-voice_SKILL.md
+│   ├── /campaign-brief/
+│   │   ├── campaign-brief.md
+│   │   └── campaign-brief_SKILL.md
+│   └── /seo-analyst/
+│       ├── seo-analyst.md
+│       └── seo-analyst_SKILL.md
+│
+├── /creative/
+│   ├── /art-director/
+│   │   ├── art-director.md
+│   │   └── art-director_SKILL.md
+│   └── /copywriter/
+│       ├── copywriter.md
+│       └── copywriter_SKILL.md
+│
+├── /operations/
+│   ├── /project-tracker/
+│   │   ├── project-tracker.md
+│   │   └── project-tracker_SKILL.md
+│   └── /sop-writer/
+│       ├── sop-writer.md
+│       └── sop-writer_SKILL.md
+│
+└── /client-services/
+    ├── /account-manager/
+    │   ├── account-manager.md
+    │   └── account-manager_SKILL.md
+    └── /proposal-writer/
+        ├── proposal-writer.md
+        └── proposal-writer_SKILL.md
 ```
